@@ -1,0 +1,21 @@
+Configuração do Git local:
+git config --global user.name Heloisa-Moraes
+git config --global user.email helomoraes2009@hotmail.com 
+
+
+npm i ( primeiro realizar este comand o)
+
+npm run android ( antes desse comando, abrir o android studio e iniciar o emulador nos ... e dar play,
+depois realizar este comando ao baixar o projeto)
+
+
+caso nao rode o que voce atualizou, abrir o terminal e apertar r para recarregar o app 
+
+instalando o metro: 
+npx expo install react-native-web react-dom @expo/metro-runtime
+
+
+
+https://reactnavigation.org/docs/material-bottom-tab-navigator
+
+para comentar : ctrl + k + c 
