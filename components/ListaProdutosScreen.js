@@ -1,18 +1,10 @@
-import React, { useState } from 'react';
-import {
-  FlatList,
-  SafeAreaView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  Image,
-} from 'react-native';
+import React from 'react';
+import { FlatList, View, StatusBar,StyleSheet, Image,}
+ from 'react-native';
 import { List } from 'react-native-paper';
 
-import Produtos from './data/Produtos';
-
-
+import Produtos from '../data/Produtos';
+export default props => {
 
 const Item = ({elemento: item }) => {
   return(
@@ -27,18 +19,17 @@ const Item = ({elemento: item }) => {
 />
 )};
 
-const App = () => {
-  return (
-    <SafeAreaView style={styles.container}>
+ return (
+    <View style={styles.container}>
       <FlatList
         data={ Produtos }
         renderItem={({ item }) =><Item elemento={item} />}
         keyExtractor={ item => item.id }
       />
-    </SafeAreaView>
+    </View>
   );
-};
 
+ }
 // APP 
 const styles = StyleSheet.create({
   container: {
@@ -58,5 +49,3 @@ const styles = StyleSheet.create({
     height: 50,
   },
 });
-
-export default App;

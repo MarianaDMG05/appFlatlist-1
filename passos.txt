@@ -1,6 +1,6 @@
 Configuração do Git local:
-git config --global user.name Heloisa-Moraes
-git config --global user.email helomoraes2009@hotmail.com 
+git config --global user.name MarianaDMG05
+git config --global user.email mariana.gomes87@etec.sp.gov.br
 
 
 npm i ( primeiro realizar este comand o)
