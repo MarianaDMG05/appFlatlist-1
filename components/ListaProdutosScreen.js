@@ -16,6 +16,7 @@ const Item = ({elemento: item }) => {
     <Image {...props} style={styles.tinyLogo} 
     source={{uri: item.urlImagem}}/>
 }
+    onPress={() => props.navigation.navigate("DetalheProduto",{id: item.id})}
 />
 )};
 
